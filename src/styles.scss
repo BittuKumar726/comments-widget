@@ -1,0 +1,15 @@
+@import './styles/theme-variables.scss';
+
+.header {
+  @include themify($themes) {
+    background: themed('headerFooterBackground');
+  }
+}
+
+.theme-light .header {
+  background: #fff;
+}
+
+.theme-dark .header {
+  background: #36394c;
+}
