@@ -1,4 +1,4 @@
-import CommentBox from './components/comments'
+ import CommentBox from './components/comments'
 
 function App() {
   return (
